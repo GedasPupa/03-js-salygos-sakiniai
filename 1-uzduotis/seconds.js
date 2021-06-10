@@ -30,8 +30,10 @@ function getTime() {
         minutes = Math.floor((totalSecs % 3600) / 60);
         seconds = (totalSecs % 3600) % 60;
         console.log("'" + hours + ":" + minutes + ":" + seconds +"'");
-    } else { // ------------------------------------------------------- ERROR - to big input
+    } else { // ------------------------------------------------------- ERROR - too big input
         console.log("ERROR: Please enter less then 86 400 seconds - format is only '24 h 00 minutes 00 seconds!'");
+        outputEl.innerHTML = "ERROR: Please enter less then 86 400 seconds";
+        return;
     }
     outputEl.innerHTML = "'" + hours + ":" + minutes + ":" + seconds + "'";
 }

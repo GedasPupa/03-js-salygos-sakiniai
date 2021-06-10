@@ -16,6 +16,8 @@ function getNumbers() {
             product = arr1.reduce((acc, curr) => acc * curr);
     } else {
         console.log("Please enter number between 100 and 999!");
+        output2.innerHTML = "Please enter number between 100 and 999!";
+        return;
     }
     console.log("Suma: " + sum + " Vidurkis: " + average + " Sandauga: " + product);
     output2.innerHTML = "Suma: " + sum + " Vidurkis: " + average + " Sandauga: " + product;
@@ -26,5 +28,4 @@ function onSubmit2() {
     event.preventDefault();
     inputNumb = element2.value;
     getNumbers();
-    // output2.innerHTML = "Suma: " + sum + " Vidurkis: " + average + " Sandauga: " + product;
 }
