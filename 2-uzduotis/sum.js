@@ -23,6 +23,7 @@ function getNumbers() {
 getNumbers();
 
 function onSubmit2() {
+    event.preventDefault();
     inputNumb = element2.value;
     getNumbers();
     // output2.innerHTML = "Suma: " + sum + " Vidurkis: " + average + " Sandauga: " + product;

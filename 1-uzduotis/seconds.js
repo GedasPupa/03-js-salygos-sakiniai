@@ -9,7 +9,7 @@ let element = document.getElementById('input');
 let outputEl = document.getElementById('output');
 
 function getTime() {
-    if (totalSecs <= 60) { // ---------------------------------------- seconds go here
+    if (totalSecs <= 60) { // - seconds go here
         seconds = totalSecs;
         if (totalSecs < 10) {
             seconds = "0" + totalSecs;
@@ -38,6 +38,7 @@ function getTime() {
 getTime(); // for first render
 
 function onSubmit() {
+    event.preventDefault();
     totalSecs = element.value;
     getTime(); // for input render
     // outputEl.innerHTML = "'" + hours + ":" + minutes + ":" + seconds + "'";
