@@ -40,6 +40,8 @@ getTime(); // for first render
 function onSubmit() {
     totalSecs = element.value;
     getTime(); // for input render
+    outputEl.innerHTML = "'" + hours + ":" + minutes + ":" + seconds + "'";
+
 }
 
 // how to stop page reloading???  <input onchange="func()"> ???
