@@ -1,6 +1,6 @@
 let a  = 1;
 let b = 2;
-let c = 3;
+let c = -3;
 let x, x1, x2, disk;
 
 let elA = document.getElementById('input-a');
@@ -15,7 +15,7 @@ function getResult() {
         if (disk > 0) {
             x1 = (-b + Math.sqrt(disk)) / 2*a;
             x2 = (-b - Math.sqrt(disk)) / 2*a;
-            console.log("Galimi du sprendiniai - x1! " + x1 + " /// x2: " + x2);
+            console.log("Galimi du sprendiniai! - x1: " + x1 + " /// x2: " + x2);
         } else if (disk == 0) {
             x = -(b / 2*a);
             console.log("Sprendinys x: " + x);
@@ -31,8 +31,8 @@ function getResult() {
     } else {
         console.log("ERROR: a ir b turi būti ne lygus 0!");
     }
-    if (x === undefined) {
-        output3.innerHTML = "Galimi du sprendiniai - x1! " + x1 + " /// x2: " + x2;
+    if (x == undefined) {
+        output3.innerHTML = "Galimi du sprendiniai! - x1: " + x1 + " /// x2: " + x2;
     } else {
         output3.innerHTML = "Sprendinys x: " + x;
     }
@@ -40,9 +40,9 @@ function getResult() {
 getResult();
 
 function onSubmit3() {
-    a = elA.nodeValue;
-    b = elB.nodeValue;
-    c = elC.nodeValue;
+    a = elA.value;
+    b = elB.value;
+    c = elC.value;
     getResult();
 }
 
