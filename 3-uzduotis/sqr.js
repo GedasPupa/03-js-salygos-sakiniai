@@ -1,6 +1,6 @@
 let a  = 1;
-let b = 1;
-let c = -3;
+let b = 2;
+let c = 1;
 let x, x1, x2, disk;
 
 let elA = document.getElementById('input-a');
@@ -13,15 +13,15 @@ function getResult() {
         disk = b*b - 4 * a * c;
         console.log(disk);
         if (disk > 0) {
-            x1 = (-b + Math.sqrt(disk)) / 2*a;
-            x2 = (-b - Math.sqrt(disk)) / 2*a;
+            x1 = (-b + Math.sqrt(disk)) / (2*a);
+            x2 = (-b - Math.sqrt(disk)) / (2*a);
             console.log("Galimi du sprendiniai! - x1: " + x1 + " /// x2: " + x2);
         } else if (disk == 0) {
-            x = -(b / 2*a);
+            x = (-b) / (2*a);
             console.log("Sprendinys x: " + x);
         } else {
-            x1 = (-b)/2*a + Math.sqrt(Math.abs(disk))/2*a;
-            x2 = (-b)/2*a - Math.sqrt(Math.abs(disk))/2*a;
+            x1 = (-b)/(2*a) + Math.sqrt(Math.abs(disk))/(2*a);
+            x2 = (-b)/(2*a) - Math.sqrt(Math.abs(disk))/(2*a);
             console.log("Galimi du sprendiniai (kompleksiniai skaiciai, i=1)! x1: " + x1 + " /// x2: " + x2);
         } 
     } else if ((a != 0 && b != 0 && c == 0)) {
