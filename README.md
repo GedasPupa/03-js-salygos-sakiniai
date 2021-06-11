@@ -1,50 +1,50 @@
 # Javascript - sąlygos sakiniai
 _(Educational project)_
 
-## 1. Suprogramuokite skriptą, kurioje parašius tam tikrą sekundžių kiekį, rodo  24 valandų, minučių, sekundžių formatu.
+### 1. Suprogramuokite skriptą, kurioje parašius tam tikrą sekundžių kiekį, rodo  24 valandų, minučių, sekundžių formatu.
 
-### Papildomai:
+#### Papildomai:
 
-*Sekundčių kiekis paimamas iš input HTML žymės laukelio.
+- Sekundčių kiekis paimamas iš input HTML žymės laukelio.
 
-*Išveskite konvertuotą sekunžių informacija į div.
+- Išveskite konvertuotą sekunžių informacija į div.
 
 
 
-## 2. Suraskite triženklio skaičiaus visų skaitmenų:
+### 2. Suraskite triženklio skaičiaus visų skaitmenų:
 
-*Sumą
+- Sumą
 
-*Vidurkį
+- Vidurkį
 
-*Sandaugą.
+- Sandaugą.
 
 Prieš tai atpažinti, ar tai yra triženklis skaičius, jei skaičius dviženklis ar n-ženklis, veiksmų nevykdyti                            
 
-### Papildomai:
+#### Papildomai:
 
-*Skaičius paimamas iš input HTML žymės laukelio.
+- Skaičius paimamas iš input HTML žymės laukelio.
 
-*Išveskite informacija į div.
-
-
-
-## 3. Sukurkite  skriptą, kuris suranda kvadratinės lygties sprendimą.
-
-### Papildomai:
-
-*Skaičiai paimami iš input HTML žymės laukelių.
-
-*Išveskite konvertuotą sekunžių informacija į div.
+- Išveskite informacija į div.
 
 
 
-## 4. Papildoma užduotis.
+### 3. Sukurkite  skriptą, kuris suranda kvadratinės lygties sprendimą.
+
+#### Papildomai:
+
+- Skaičiai paimami iš input HTML žymės laukelių.
+
+- Išveskite konvertuotą sekunžių informacija į div.
+
+
+
+### 4. Papildoma užduotis.
 
 Parašykite scriptą, kuris sugeneruotų 40 div elementų. Kiekvieno iš div dydis:  40x40. Kas antras div turi būti žalias. Kiekvienas div turi turėti savo numerį, kuris taip pat turi būti atvaizduojamas.
 
 _Visas užduotis atlikite į vieną repositoriją, kiekvienai užduočiai tiesiog sukurdami aplanką_
 
-## Teacher
+### Teacher
 
 [Motiejus Baliukonis](https://github.com/motiejus1)
