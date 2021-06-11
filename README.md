@@ -5,27 +5,27 @@ _(Educational project)_
 
 ### Papildomai:
 
- *Sekundčių kiekis paimamas iš input HTML žymės laukelio.
+*Sekundčių kiekis paimamas iš input HTML žymės laukelio.
 
- *Išveskite konvertuotą sekunžių informacija į div.
+*Išveskite konvertuotą sekunžių informacija į div.
 
 
 
 ## 2. Suraskite triženklio skaičiaus visų skaitmenų:
 
-   *Sumą
+*Sumą
 
-   *Vidurkį
+*Vidurkį
 
-   *Sandaugą.
+*Sandaugą.
 
-   Prieš tai atpažinti, ar tai yra triženklis skaičius, jei skaičius dviženklis ar n-ženklis, veiksmų nevykdyti                            
+Prieš tai atpažinti, ar tai yra triženklis skaičius, jei skaičius dviženklis ar n-ženklis, veiksmų nevykdyti                            
 
 ### Papildomai:
 
- *Skaičius paimamas iš input HTML žymės laukelio.
+*Skaičius paimamas iš input HTML žymės laukelio.
 
- *Išveskite informacija į div.
+*Išveskite informacija į div.
 
 
 
@@ -33,9 +33,9 @@ _(Educational project)_
 
 ### Papildomai:
 
- *Skaičiai paimami iš input HTML žymės laukelių.
+*Skaičiai paimami iš input HTML žymės laukelių.
 
- *Išveskite konvertuotą sekunžių informacija į div.
+*Išveskite konvertuotą sekunžių informacija į div.
 
 
 

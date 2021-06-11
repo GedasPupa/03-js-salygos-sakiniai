@@ -7,10 +7,34 @@ form {
     flex-direction: column;
     width: 200px;
     border: 1px solid black;
-    padding: 50px;
+    padding: 20px 50px;
     margin: 50px;
 }
 
 input, button {
     margin: 10px 0;
+}
+
+.divs {
+    /* position: relative;
+    bottom: 0; */
+}
+
+.divOne, .divTwo {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.divTwo {
+    background-color: #90ee90;
+}
+
+p {
+    margin: 0 0 10p 0;
+    /* padding: 0; */
+    font-weight: bold;
 }
