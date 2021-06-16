@@ -20,21 +20,22 @@ input, button {
     bottom: 0; */
 }
 
-.divOne, .divTwo {
+/* .divOne, .divTwo */
+.box {
     display: inline-block;
     border: 1px solid black;
-    font-size: 30px;
+    font-size: 25px;
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin: 5px;
 }
 
-.divTwo {
+/* .divTwo */
+.green {
     background-color: #90ee90;
 }
 
 p {
     margin: 0 0 10p 0;
-    /* padding: 0; */
     font-weight: bold;
 }
